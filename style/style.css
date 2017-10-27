@@ -1,0 +1,218 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+    font: 1rem 'Open Sans', sans-serif;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #111;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.wrapper-big {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.wrapper-small {
+    max-width: 900px;
+    margin: 0 auto;
+}
+/*----------------------------HEADER-----------------------------------*/
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 60px 0;
+}
+
+.header-nav li {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    color: #626262;
+    font: 400 14px/24px 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+
+/*----------------------------WELCOME ARTICLE--------------------------*/
+
+.welcome-article a {
+    color: #b4ad9e;
+    font: 300 14px 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.welcome-article h3 {
+    color: #626262;
+    font: 400 30px 'Playfair Display', serif;
+}
+
+.welcome-article p {
+    max-width: 895px;
+    margin: 0 auto 50px auto ;
+    color: #626262;
+    font: 400 14px/24px 'Playfair Display', serif;
+}
+
+.welcome-image {
+    max-width: 1060px;
+    height: auto;
+    margin: 0 auto 100px auto;
+}
+
+/*.welcome-article .wrapper-small a {*/
+    /*margin-bottom: 135px;*/
+/*}*/
+/*----------------------------ARTICLES---------------------------------*/
+.article-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.story {
+    padding-top: 130px;
+    max-width: 420px;
+}
+
+.story a {
+    color: #b4ad9e;
+    font: 300 14px 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.story h3 {
+    margin: 28px 0 34px 0;
+    color: #626262;
+    font: 400 30px 'Playfair Display', serif;
+}
+
+.story p {
+    /*margin-bottom: 130px;*/
+    color: #626262;
+    font: 400 14px/24px 'Playfair Display', serif;
+}
+
+.image-container {
+    margin-bottom: 31px;
+    max-width: 423px;
+    height: auto;
+}
+
+/*----------------------------SIGN UP----------------------------------*/
+
+.sign-up {
+    text-align: center;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 74px 0 74px 0;
+    margin-bottom: 100px;
+}
+
+.sign-up-content {
+    display: inline-block;
+}
+
+.sign-up-content h3 {
+    color: #333333;
+    font: 400 30px 'Playfair Display', serif;
+    letter-spacing: 0.75px;
+}
+
+.input-content input {
+    border: none;
+    background-color: #f0f0f0;
+    color: #626262;
+    font: 400 14px/24px 'Playfair Display', serif;
+    outline: none;
+}
+
+.input-content button {
+    float: right;
+    width: 32px;
+    height: 17px;
+    background: none;
+    background-image: url("../images/send-icon.png");
+    border: none;
+}
+
+.input-content {
+    max-width: 401px;
+    border-bottom: 2px solid #757575;
+}
+
+
+/*----------------------------LOAD MORE--------------------------------*/
+
+.button {
+    display: block;
+    margin: 50px auto 100px auto;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: #626262;
+    font: 400 20px/40px 'Playfair Display', serif;
+    border: 1px solid #626262;
+}
+
+/*----------------------------FOOTER-----------------------------------*/
+
+.page-footer {
+    background-color: #f0f0f0;
+    padding: 41px 0 47px 0;
+}
+
+.page-footer .wrapper-big {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.footer-menu a{
+    color: #000000;
+    margin: 0 17px;
+    font: 400 14px/24px 'Playfair Display', serif;
+}
+
+.footer-nav .follow {
+    color: #000000;
+    margin: 0 22px;
+    font: 400 14px/24px 'Playfair Display', serif;
+}
+
+.footer-nav ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+.footer-nav a {
+    color: #626262;
+    width: 8px;
+    height: 14px;
+}
