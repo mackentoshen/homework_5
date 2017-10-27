@@ -1,13 +1,8 @@
-html {
-    font-size: 14px;
-}
-
 body {
     margin: 0;
     width: 100%;
     padding: 0;
-    background-color: #fff;
-    font: 1rem 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 a {
@@ -78,9 +73,6 @@ button:hover {
     margin: 0 auto 100px auto;
 }
 
-/*.welcome-article .wrapper-small a {*/
-    /*margin-bottom: 135px;*/
-/*}*/
 /*----------------------------ARTICLES---------------------------------*/
 .article-list {
     display: flex;
@@ -88,6 +80,7 @@ button:hover {
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .story {
@@ -125,8 +118,8 @@ button:hover {
     text-align: center;
     width: 100%;
     background-color: #f0f0f0;
-    padding: 74px 0 74px 0;
-    margin-bottom: 100px;
+    padding: 75px 0;
+    margin-top: 120px;
 }
 
 .sign-up-content {
@@ -137,6 +130,7 @@ button:hover {
     color: #333333;
     font: 400 30px 'Playfair Display', serif;
     letter-spacing: 0.75px;
+    margin: 0 0 70px 0;
 }
 
 .input-content input {
@@ -194,7 +188,7 @@ button:hover {
     font: 400 14px/24px 'Playfair Display', serif;
 }
 
-.footer-nav .follow {
+.footer-nav span {
     color: #000000;
     margin: 0 22px;
     font: 400 14px/24px 'Playfair Display', serif;
